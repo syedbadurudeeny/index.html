@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+.dummy{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+}
+.topbar{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
+.container{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+@media only screen and (min-width: 360px) and (max-width: 992px){
+    .container{ 
+        width: 100%;
+    }
+}
+.first{
+  background-color: greenyellow;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+.header{
+    text-align: center;
+    margin-top: 30px;
+}
+.header a{
+    text-decoration: none;
+    display: inline;
+    margin-right: 20px;
+   
+}
+
+.spacebar{
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.center{
+    color: greenyellow;
+}
+.pic img{
+       width: 100%;
+       height: 350px;    
+       padding-right:20px; 
+       padding-left: 20px;    
+}
+.content1{
+       width: 32%;
+       height: 56vh;
+       float: left;
+       background-color: grey;
+       margin-right: 1%;
+       margin-left: 1%;
+       margin-bottom: 10px;      
+}
+
+.content2{
+       width: 32%;
+       height: 56vh;
+       float: left;
+       background-color: grey;
+       margin-right: 1%;   
+}
+.content3{
+       width: 32%;
+       height: 56vh;
+       float: left;
+       background-color: grey;
+       margin-right: 1%;          
+}
+.battery{
+    text-align: center;
+    margin-top: 0;
+    background-color: greenyellow;
+    padding:20px;
+    margin-bottom: 0;   
+} 
+.first1{
+    width: 100%;
+    height:150px;
+    margin-bottom: 10px;
+} 
+.para1{
+    margin: auto;
+    text-align: center;
+}  
+.plus{
+    float: right;
+    background-color:greenyellow ;
+    padding: 13.50px;
+    margin-top: 2px;
+}
+
+.battery2{
+    text-align: center;
+    margin-top: 0;
+    background-color: greenyellow;
+    padding:20px;
+    margin-bottom: 0;   
+} 
+.first2{
+    width: 100%;
+    height:150px;
+    margin-bottom: 10px;
+} 
+.para2{
+    margin: auto;
+    text-align: center;
+}  
+.plus2{
+    float: right;
+    background-color:greenyellow ;
+    padding: 13.50px;
+    margin-top: 2px;
+}
+
+.battery3{
+    text-align: center;
+    margin-top: 0;
+    background-color: greenyellow;
+    padding:20px;
+    margin-bottom: 0;   
+} 
+.first3{
+    width: 100%;
+    height:150px;
+    margin-bottom: 10px;
+} 
+.para3{
+    margin: auto;
+    text-align: center;
+}  
+.plus3{
+    float: right;
+    background-color:greenyellow ;
+    padding: 13.50px;
+    margin-top: 2px;
+}
+.content4{
+       width: 32%;
+       height: 40vh;
+       float: left;
+       background-color: lightgray;
+       margin-right: 1%;
+       margin-left: 1%; 
+       margin-bottom: 10px; 
+}
+.content5{
+       width: 32%;
+       height: 40vh;
+       float: left;
+       background-color: lightgray;
+       margin-right: 1%;   
+}
+.content6{
+       width: 32%;
+       height: 40vh;
+       float: left;
+       background-color: lightgray;
+       margin-right: 1%;          
+}
+.battery4{
+    text-align: center;
+    margin-top: 0;
+    padding:20px;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 0;   
+} 
+.para4{
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}  
+.battery5{
+    text-align: center;
+    margin-top: 0;
+    padding:20px;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 0;   
+} 
+.para5{
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}  
+.battery6{
+    text-align: center;
+    margin-top: 0;
+    padding:20px;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 0;   
+} 
+.para6{
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+.content7{
+       width: 43%;
+       height: 19.5vh;
+       float: left;
+       background-color: lightgray;
+       margin-left: 15px;
+       margin-bottom: 10px; 
+       
+}
+.number1{
+    width: 25%;
+    float: left;
+    padding: 49px;
+    margin-top: 0px;
+    background-color: lime;
+}
+.earth{
+    width: 60%;
+    float: right; 
+    color: green;
+    margin-top: 0;
+    padding-right: 0;
+}
+.mars{
+    padding: 0;
+    margin: 0;
+}
+.content8{
+       width: 43%;
+       height: 19.5vh;
+       float: right;
+       background-color: lightgray;
+       margin-right: 10px;        
+}
+.number2{
+    float: left;
+    width: 25%;
+    padding: 49px;
+    background-color: lime;
+    color: black;
+}
+.earth2{
+    width: 60%;
+    float: right;   
+    color: green;
+}
+.mars2{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+     color: goldenrod;
+     text-align: center;
+}
+ 
+    
+
+
+
+
+
